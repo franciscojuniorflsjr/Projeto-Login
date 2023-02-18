@@ -3,7 +3,7 @@
 /* 
     Paleta de cores
     verde : #49a09d
-    lilás : #5f2c82  #0455ab azul
+    lilás : #5f2c82   fundo1 #424F87   fundo2 #63C4E5
 
 */
 
@@ -15,7 +15,7 @@
 }
 
 body, html {
-    background-color: #0455ab;
+    background-color: #424F87;
     width: 100vw;
     height: 100vh;
 }
@@ -37,11 +37,14 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.483);
+
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
-    background: #0455ab url(../imagens/pexels-sean-whang-804269\ \(1\).jpg) no-repeat;
+    background:#424F87 url(../imagens/pexels-sean-whang-804269\ \(1\).jpg) no-repeat;
     background-size: cover;
     background-position: bottom top ;
     height: 200px;
